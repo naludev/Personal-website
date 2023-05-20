@@ -4,6 +4,7 @@ import Text from 'common/components/Text/index'
 import ButtonLink from 'common/components/Button/ButtonLink'
 import NeonTitle from 'common/components/NeonTitle'
 import Title from 'common/components/Title'
+import CV from 'assets/yann_developer_cv.pdf'
 import { ButtonsContainer, Container, Footer, StyledSpan, ContainerTitle, TextContainer } from './styles'
 import { SocialMedia } from './SocialMedia'
 
@@ -20,7 +21,7 @@ export const Header = () => (
     <Footer>
       <ButtonsContainer>
         <ButtonLink onClick="https://www.linkedin.com/in/yanndev/" icon="touch" text="Hire me" />
-        <ButtonLink onClick="https://www.instagram.com/yannswd/" icon="download" type="button" text="Download my resume" />
+        <ButtonLink download="yann_dev_cv" onClick={CV} icon="download" type="button" text="Download my resume" />
       </ButtonsContainer>
       <SocialMedia />
     </Footer>
