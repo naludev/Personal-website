@@ -4,7 +4,7 @@ import Footer from 'pages/Home/Footer'
 import { Container } from './styles'
 import Form from './Form'
 
-const About = () => (
+const Contact = () => (
   <Container>
     <NeonTitle type="h3" color="secondary" text="Contact me" />
     <Form />
@@ -12,4 +12,4 @@ const About = () => (
   </Container>
 )
 
-export default About
+export default Contact

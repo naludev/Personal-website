@@ -24,6 +24,6 @@ export const Head = styled.header`
   display: flex;
   align-items: center;
   background-color: ${colors.backgrounds.black};
-  box-shadow: 0px -4px 17px -4px ${colors.primary.regular};
+  box-shadow: 0px -4px 17px -4px ${colors.primary.contrast};
   grid-area: header;
 `

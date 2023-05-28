@@ -31,4 +31,16 @@ export const StyledLink = styled.a`
     transform: translateY(7px) translateX(7px);
     box-shadow: 0 0 ${colors.backgrounds.grey}; 
   }
+
+  @media (max-width: 425px) {
+    padding: 10px 13px;
+  }
+`
+
+export const StyledText = styled.p`
+  color: ${colors.texts.black};
+
+  @media (max-width: 425px) {
+    font-size: 10px;
+  }
 `

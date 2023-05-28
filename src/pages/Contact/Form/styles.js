@@ -13,13 +13,18 @@ export const Container = styled.form`
 `
 
 export const StyledInput = styled.input`
-  width: 20rem;
+  width: 19rem;
   padding: 10px;
-  box-shadow: 7px 7px rgba(0,0,0,0.5);
-  transition: .3s ease;
+  box-shadow: rgba(0, 0, 0, 0.5) 7px 7px;
+  transition: all 0.3s ease 0s;
   margin: 0.5rem;
+  color: ${colors.texts.white};
   text-decoration: none;
-  background-color: ${colors.backgrounds.lightGrey};
-  border: 1px solid ${colors.backgrounds.grey};
+  background-color: rgb(251 251 251 / 0%);
+  border: 1px solid ${colors.primary.contrast};
   border-radius: 3px;
+
+  :focus {
+    border-style: inherit;
+  }
 `

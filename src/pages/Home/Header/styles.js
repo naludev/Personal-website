@@ -6,7 +6,12 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 9rem 2rem 0 2rem;
-  background-color: ${colors.primary.secondary};
+  background-color: ${colors.backgrounds.black};
+
+  @media (max-width: 425px) {
+    text-align: -webkit-center;
+    padding: 6rem 1rem 0 2rem;
+  }
 `
 
 export const TitleContainer = styled.div`
@@ -24,11 +29,19 @@ export const ButtonsContainer = styled.div`
   margin-top: 0.5rem;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
 `
 
 export const TextContainer = styled.div`
   width: 70%;
   text-align-last: center;
+
+  @media (max-width: 425px) {
+    width: inherit;
+  }
 `
 
 export const Animation = styled.img`
@@ -54,6 +67,10 @@ export const StyledSpan = styled.span`
   transform-origin: 70% 70%;      
   display: inline-block;
   font-size: 3rem;
+
+  @media (max-width: 425px) {
+    font-size: 3.5vh;
+  }
 `
 
 export const ContainerTitle = styled.div`
