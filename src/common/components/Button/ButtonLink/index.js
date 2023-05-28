@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import Icon from 'common/components/Icon'
 import { StyledLink, StyledText } from './styles'
 
-const ButtonLink = ({ text, onClick, icon, download }) => (
-  <StyledLink download={download} href={onClick}>
+const ButtonLink = ({ text, onClick, icon, download, href }) => (
+  <StyledLink download={download} onClick={onClick} href={href}>
     {icon && <Icon size="small" icon={icon} />}
     {text && <StyledText>{text}</StyledText>}
   </StyledLink>
@@ -12,7 +12,8 @@ const ButtonLink = ({ text, onClick, icon, download }) => (
 
 ButtonLink.propTypes = {
   text: PropTypes.string,
-  onClick: PropTypes.string,
+  onClick: PropTypes.func,
+  href: PropTypes.string,
   icon: PropTypes.string,
   download: PropTypes.any
 }
