@@ -16,9 +16,9 @@ const Form = () => {
     emailjs
       .sendForm(
         'default_service',
-        'template_ec2os0v',
+        process.env.REACT_APP_EMAIL_JS_TEMPLATE,
         e.target,
-        'TzCHsuZGy30rpodPy'
+        process.env.REACT_APP_EMAIL_JS_API_KEY
       )
       .then(
         () => {

@@ -5,6 +5,7 @@ import { ReactComponent as vector } from 'assets/icons/vector.svg'
 import { ReactComponent as email } from 'assets/icons/email.svg'
 import { ReactComponent as download } from 'assets/icons/download.svg'
 import { ReactComponent as touch } from 'assets/icons/touch.svg'
+import { ReactComponent as github } from 'assets/icons/github.svg'
 
 export const icons = {
   arrow,
@@ -13,5 +14,6 @@ export const icons = {
   vector,
   email,
   download,
-  touch
+  touch,
+  github
 }

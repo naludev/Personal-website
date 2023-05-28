@@ -8,6 +8,7 @@ export const SocialMedia = () => (
     <a href="mailto:yannm.dev@gmail.com"><Icon icon="email" color="white" size="xsmall" /></a>
     <a href="https://www.instagram.com/yannswd/"><Icon icon="instagram" color="white" size="xsmall" /></a>
     <a href="https://www.linkedin.com/in/yanndev/"><Icon icon="linkedin" color="white" size="xsmall" /></a>
+    <a href="https://github.com/yannxdxd"><Icon icon="github" color="white" size="xsmall" /></a>
   </SocialMediaContainer>
 )
 
