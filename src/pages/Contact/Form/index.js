@@ -8,9 +8,11 @@ import { fields } from './helper'
 const Form = () => {
   const message = 'Message sent succesfully'
   const [showMessage, setShowMessage] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const sendEmail = (e) => {
     e.preventDefault()
+    setLoading(true)
     emailjs
       .sendForm(
         'default_service',
@@ -21,9 +23,11 @@ const Form = () => {
       .then(
         () => {
           setShowMessage(true)
+          setLoading(false)
         },
         (error) => {
           console.log(error.text)
+          setLoading(false)
         }
       )
     e.target.reset()
@@ -40,6 +44,7 @@ const Form = () => {
         type="submit"
         value="Send"
         text="Submit"
+        disabled={loading}
       />
       {showMessage && <Title type="h6" color="contrast" text={message} />}
     </Container>

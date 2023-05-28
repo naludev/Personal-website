@@ -10,5 +10,5 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 6rem 2rem 0 2rem;
-  background-color: ${colors.primary.secondary};
+  background-color: ${colors.backgrounds.black};
 `

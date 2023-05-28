@@ -33,6 +33,17 @@ const StyledText = css`
       default: return fontSize.hmedium
     }
   }};
+
+@media (max-width: 425px) {
+  -webkit-text-stroke: 1px ${({ color }) => {
+    switch (color) {
+      case 'primary': return colors.primary.regular
+      case 'secondary': return colors.primary.contrast
+      default: return colors.primary.regular
+    }
+  }};
+  font-size: 4vh;
+}
 `
 export const H1 = styled.h1`
 ${StyledText};

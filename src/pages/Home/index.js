@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './Header/index'
-import About from './About/index'
-import Technologies from './Technologies'
-import Footer from './Footer/index'
+import Header from './Header'
+import About from './About'
+import Skills from './Skills'
+import Footer from './Footer'
 import { Container } from './styles'
 
 const Home = () => (
   <Container>
     <Header />
     <About />
-    <Technologies />
+    <Skills />
     <Footer />
   </Container>
 )

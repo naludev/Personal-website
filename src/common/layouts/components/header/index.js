@@ -6,10 +6,9 @@ import { NavLink } from '../links'
 
 export const Header = () => (
   <Head>
-    <NeonTitle type="h6" text="< />" color="secondary" />
+    <NeonTitle type="h6" text="</>" color="secondary" />
     <Links>
       <NavLink to={ROUTES.HOME} text="Home" />
-      <NavLink to={ROUTES.ABOUT} text="About" />
       <NavLink to={ROUTES.CONTACT} text="Contact" />
     </Links>
   </Head>
