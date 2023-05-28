@@ -1,11 +1,11 @@
 export const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_ANALYTICS_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_ANALYTICS_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_ANALYTICS_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_ANALYTICS_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_ANALYTICS_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_ANALYTICS_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_ANALYTICS_MEASUREMENT_ID
+  apiKey: process.env.REACT_APP_ANALYTICS_API_KEY,
+  authDomain: process.env.REACT_APP_ANALYTICS_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_ANALYTICS_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_ANALYTICS_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_ANALYTICS_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_ANALYTICS_APP_ID,
+  measurementId: process.env.REACT_APP_ANALYTICS_MEASUREMENT_ID
 }
 
 export const events = {
