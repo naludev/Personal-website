@@ -1,3 +1,20 @@
+# Welcome to my portfolio
+
+Welcome to my software developer portfolio! In this repository, you will find a collection of my projects and experiences in the frontend development field. Here, you can explore my work, skills, and programming style. I hope you enjoy browsing through my portfolio!
+
+<img src="https://forthebadge.com/images/badges/built-with-love.svg"/> <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg"/>
+
+# About Me
+
+I am a passionate software developer with a specialized focus on frontend development. I love creating interactive and visually appealing interfaces using the latest web technologies. My main goal is to provide innovative and high-quality solutions that enhance the user experience.
+
+# Technologies Used
+Throughout my career as a frontend developer, I have worked with a variety of technologies and tools. Some of the technologies I frequently use include:
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" /><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white" /><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" /><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" /><img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" /><img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" />
+
+### Deployed on <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
