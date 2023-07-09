@@ -9,7 +9,7 @@ const Tag = ({ text }) => (
 )
 
 Tag.propTypes = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
 
 export default Tag

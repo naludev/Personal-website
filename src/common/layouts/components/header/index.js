@@ -1,17 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ROUTES } from 'app/routes/paths'
 import NeonTitle from 'common/components/NeonTitle'
-import { Head, Links } from './styles'
-import { NavLink } from '../links'
+import { FiMenu } from 'react-icons/fi'
+import { Head, Links, MenuButton, NavLink, MobileMenu } from './styles'
 
-export const Header = () => (
-  <Head>
-    <NeonTitle type="h6" text="</>" color="secondary" />
-    <Links>
-      <NavLink to={ROUTES.HOME} text="Home" />
-      <NavLink to={ROUTES.CONTACT} text="Contact" />
-    </Links>
-  </Head>
-)
+const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
+
+  return (
+    <Head>
+      <NeonTitle type="h6" text="</>" color="secondary" />
+      <Links>
+        <NavLink to={ROUTES.HOME} text="Home" />
+        <NavLink to={ROUTES.CONTACT} text="Contact" />
+      </Links>
+      <MenuButton onClick={toggleMobileMenu}>
+        <FiMenu size={24} />
+      </MenuButton>
+      {isMobileMenuOpen && (
+        <MobileMenu>
+          <NavLink to={ROUTES.HOME} text="Home" />
+          <NavLink to={ROUTES.CONTACT} text="Contact" />
+        </MobileMenu>
+      )}
+    </Head>
+  )
+}
 
 export default Header
