@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Header } from 'common/layouts/components/header'
+import Header from 'common/layouts/components/header'
 import { Container, Page } from './styles'
 
 export const Layout = ({ children }) => (

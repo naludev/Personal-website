@@ -1,7 +1,7 @@
+/* eslint-disable */
 import React, { useState } from 'react'
 import { ROUTES } from 'app/routes/paths'
-import NeonTitle from 'common/components/NeonTitle'
-import { FiMenu } from 'react-icons/fi'
+import { FaList } from 'react-icons/fa'
 import { Head, Links, MenuButton, NavLink, MobileMenu } from './styles'
 
 const Header = () => {
@@ -13,22 +13,36 @@ const Header = () => {
 
   return (
     <Head>
-      <NeonTitle type="h6" text="</>" color="secondary" />
       <Links>
-        <NavLink to={ROUTES.HOME} text="Home" />
-        <NavLink to={ROUTES.CONTACT} text="Contact" />
+        <DesktopNavLink to={ROUTES.HOME} text="Home" />
+        <DesktopNavLink to={ROUTES.CONTACT} text="Contact" />
       </Links>
       <MenuButton onClick={toggleMobileMenu}>
-        <FiMenu size={24} />
+        <FaList size={24} />
       </MenuButton>
       {isMobileMenuOpen && (
+        <>
+        <></>
         <MobileMenu>
-          <NavLink to={ROUTES.HOME} text="Home" />
-          <NavLink to={ROUTES.CONTACT} text="Contact" />
+          <MobileNavLink to={ROUTES.HOME} text="Home" />
+          <MobileNavLink to={ROUTES.CONTACT} text="Contact" />
         </MobileMenu>
+        </>
       )}
     </Head>
   )
 }
+
+const DesktopNavLink = ({ to, text }) => (
+  <NavLink exact to={to} activeClassName="active">
+    {text}
+  </NavLink>
+)
+
+const MobileNavLink = ({ to, text }) => (
+  <NavLink to={to} onClick={() => setIsMobileMenuOpen(false)}>
+    {text}
+  </NavLink>
+)
 
 export default Header
