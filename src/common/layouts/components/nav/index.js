@@ -1,10 +1,10 @@
 /* eslint-disable */
 import React, { useState } from 'react'
 import { ROUTES } from 'app/routes/paths'
-import { FaList } from 'react-icons/fa'
+import { FaStream } from 'react-icons/fa'
 import { Head, Links, MenuButton, NavLink, MobileMenu } from './styles'
 
-const Header = () => {
+const Nav = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const toggleMobileMenu = () => {
@@ -18,7 +18,7 @@ const Header = () => {
         <DesktopNavLink to={ROUTES.CONTACT} text="Contact" />
       </Links>
       <MenuButton onClick={toggleMobileMenu}>
-        <FaList size={24} />
+        <FaStream size={24} />
       </MenuButton>
       {isMobileMenuOpen && (
         <>
@@ -45,4 +45,4 @@ const MobileNavLink = ({ to, text }) => (
   </NavLink>
 )
 
-export default Header
+export default Nav

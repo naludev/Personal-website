@@ -8,7 +8,7 @@ export const system = {
   lightGreen: '#a67dff',
   grey: '#73777B',
   lightGrey: '#fbfbfb',
-  pink: '#CB1F9C'
+  pink: '#50cb1f'
 }
 
 export const colors = {

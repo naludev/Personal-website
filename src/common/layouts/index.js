@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Header from 'common/layouts/components/header'
+import Nav from 'common/layouts/components/nav'
 import { Container, Page } from './styles'
 
 export const Layout = ({ children }) => (
   <Container>
-    <Header />
+    <Nav />
     <Page>
       {children}
     </Page>

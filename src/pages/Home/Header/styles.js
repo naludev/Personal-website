@@ -1,16 +1,26 @@
 import styled, { keyframes } from 'styled-components'
 import { colors } from 'app/globals/colors'
 
+export const StyledImage = styled.img`
+  max-width: 50vh;
+  padding: 1em;
+
+  @media (max-width: 425px) {
+    max-width: 40vh;
+  }  
+`
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: -webkit-center;
   padding: 9rem 2rem 0 2rem;
   background-color: ${colors.backgrounds.black};
 
   @media (max-width: 425px) {
     text-align: -webkit-center;
-    padding: 6rem 1rem 0 2rem;
+    padding: 6rem 1rem 0 1rem;
   }
 `
 
@@ -37,6 +47,7 @@ export const ButtonsContainer = styled.div`
 
 export const TextContainer = styled.div`
   width: 70%;
+  max-width: 66vh;
   text-align-last: center;
 
   @media (max-width: 425px) {
@@ -74,6 +85,12 @@ export const StyledSpan = styled.span`
 `
 
 export const ContainerTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+export const HeaderTitle = styled.div`
   gap: 15px;
   display: flex;
   align-items: center;

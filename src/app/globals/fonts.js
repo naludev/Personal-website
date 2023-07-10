@@ -13,7 +13,7 @@ export const BODY_SIZE = {
   small: '0.75rem',
   medium: '0.875rem',
   large: '1rem',
-  xlarge: '1.25rem'
+  xlarge: '1rem'
 }
 
 export const HEADING_SIZE = {
