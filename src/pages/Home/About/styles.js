@@ -56,10 +56,6 @@ export const LineContainer = styled.div`
   }
 `
 
-export const Line = styled.div`
-  height: 2rem;
-`
-
 export const Content = styled.div`
   align-self: center;
   text-align: center;

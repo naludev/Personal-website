@@ -9,8 +9,8 @@ import NeonTitle from 'common/components/NeonTitle'
 import Title from 'common/components/Title'
 import CV from 'assets/yann_developer_cv.pdf'
 import Me from 'assets/images/meonpc.png'
+import SocialMedia from 'common/components/SocialMedia'
 import { ButtonsContainer, Container, Footer, StyledSpan, HeaderTitle, ContainerTitle, TextContainer, StyledImage } from './styles'
-import { SocialMedia } from './SocialMedia'
 import BackgroundParticles from './Particles'
 
 export const Header = () => {

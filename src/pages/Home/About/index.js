@@ -4,14 +4,14 @@ import Text from 'common/components/Text'
 import Title from 'common/components/Title'
 import NeonTitle from 'common/components/NeonTitle'
 import Device from 'assets/images/fono.png'
-import { Container, DescriptionContainer, Line, Content, Footer, LineContainer, FooterContainer, StyledImage } from './styles'
+import { Container, DescriptionContainer, Content, Footer, LineContainer, FooterContainer, StyledImage } from './styles'
 
 const About = () => (
   <Container>
     <Content>
       <DescriptionContainer>
-        <NeonTitle text="Who I am" type="h4" color="secondary" />
-        <Line />
+        <Title text="INTRODUCTION" type="h6" color="contrast" />
+        <NeonTitle text="about me" type="h1" color="secondary" />
         <Text
           type="subtitle1"
           text="Creator of solutions for the software industry. With years of experience in the market,

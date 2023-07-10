@@ -41,10 +41,10 @@ const Form = () => {
   return (
     <Container onSubmit={sendEmail}>
       {fields.map((i) => (
-        <>
+        <div key={i.id}>
           <StyledInput type={i.type} placeholder={i.name} name={i.name} />
           <Line />
-        </>
+        </div>
       ))}
       <Button type="submit" value="Send" text="Submit" disabled={loading} />
       {showMessage && <Title type="h6" color="contrast" text={message} />}
