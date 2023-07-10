@@ -4,6 +4,8 @@ import { initializeApp } from 'firebase/app'
 import { events, firebaseConfig } from 'app/utils/firebase'
 import NeonTitle from 'common/components/NeonTitle'
 import Footer from 'pages/Home/Footer'
+import Title from 'common/components/Title'
+import BackgroundParticles from 'pages/Home/Header/Particles'
 import { Container } from './styles'
 import Form from './Form'
 
@@ -17,7 +19,9 @@ const Contact = () => {
 
   return (
     <Container>
-      <NeonTitle type="h3" color="secondary" text="Contact me" />
+      <BackgroundParticles />
+      <Title text="GET IN TOUCH" type="h6" color="contrast" />
+      <NeonTitle type="h1" color="secondary" text="contact" />
       <Form />
       <Footer />
     </Container>

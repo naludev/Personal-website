@@ -4,7 +4,7 @@ import { getAnalytics, logEvent } from 'firebase/analytics'
 import { initializeApp } from 'firebase/app'
 import { events, firebaseConfig } from 'app/utils/firebase'
 import Icon from 'common/components/Icon'
-import { SocialMediaContainer } from '../styles'
+import { SocialMediaContainer } from 'pages/Home/Header/styles'
 
 export const SocialMedia = () => {
   const app = initializeApp(firebaseConfig)

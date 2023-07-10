@@ -34,7 +34,7 @@ const Nav = () => {
 }
 
 const DesktopNavLink = ({ to, text }) => (
-  <NavLink exact to={to} activeClassName="active">
+  <NavLink exact="true" to={to}>
     {text}
   </NavLink>
 )
