@@ -1,11 +1,10 @@
-/* eslint-disable */
 import React from 'react'
 import NeonTitle from 'common/components/NeonTitle'
+import Text from 'common/components/Text'
 import { Container, DescriptionContainer, TagList, Fade } from './styles'
 import { renderTags } from './helper'
-import Text from 'common/components/Text'
 
-export const Skills = () => (
+const Skills = () => (
   <Container>
     <DescriptionContainer>
       <NeonTitle text="My skills" type="h4" color="secondary" />

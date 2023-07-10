@@ -40,6 +40,7 @@ export const Footer = styled.div`
 
 export const StyledImage = styled.img`
   width: 60%;
+  max-width: 40vh;
   height: auto;
 `
 
@@ -63,6 +64,7 @@ export const Content = styled.div`
   align-self: center;
   text-align: center;
   z-index: 1;
+  max-width: 60vh;
 `
 
 export const DescriptionContainer = styled.div`

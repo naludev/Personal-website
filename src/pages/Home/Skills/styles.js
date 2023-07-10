@@ -57,8 +57,8 @@ export const TagWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 0 0.2rem;
-  color: #cb1f9c;
-  border: 1px solid #cb1f9c;
+  color: #50cb1f;
+  border: 1px solid #50cb1f;
   font-size: 0.9rem;
   border-radius: 0.4rem;
   padding: 0.7rem 1rem;
@@ -68,7 +68,7 @@ export const TagWrapper = styled.div`
 
   span {
     font-size: 1.2rem;
-    color: #cb1f9c;
+    color: #50cb1f;
   }
 
   @media (max-width: 425px) {
