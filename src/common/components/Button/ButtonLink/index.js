@@ -5,7 +5,7 @@ import { StyledLink, StyledText } from './styles'
 
 const ButtonLink = ({ text, onClick, icon, download, href }) => (
   <StyledLink download={download} onClick={onClick} href={href}>
-    {icon && <Icon size="small" icon={icon} />}
+    {icon && <Icon size="small" color="purple" icon={icon} />}
     {text && <StyledText>{text}</StyledText>}
   </StyledLink>
 )

@@ -4,7 +4,8 @@ import { colors } from 'app/globals/colors'
 const iconColors = {
   green: colors.primary.regular,
   white: colors.backgrounds.white,
-  black: colors.texts.black
+  black: colors.texts.black,
+  purple: colors.primary.secondary
 }
 const sizes = {
   xsmall: '1.25rem',

@@ -34,6 +34,10 @@ const StyledText = css`
       default: return fontSize.hmedium
     }
   }};
+
+  @media (max-width: 425px) {
+    font-size: 2vh;
+  }
 `
 export const H1 = styled.h1`
 ${StyledText};

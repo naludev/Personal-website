@@ -1,5 +1,5 @@
-import styled from 'styled-components'
 import { colors } from 'app/globals/colors'
+import styled from 'styled-components'
 
 export const Line = styled.div`
   height: 1em;
@@ -8,23 +8,32 @@ export const Line = styled.div`
 export const Container = styled.form`
   display: flex;
   flex-direction: column;
-  padding: 3rem 0 0 0;
+  padding: 2rem 0 0 0;
   align-items: center;
 `
 
 export const StyledInput = styled.input`
-  width: 19rem;
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.5) 7px 7px;
-  transition: all 0.3s ease 0s;
-  margin: 0.5rem;
+  background: white;
+  color: rgb(7, 2, 18);
+  transition: all 200ms ease 0s;
+  border: 0px;
+  height: 2.4rem;
+  width: 27vh;
+  padding: 0px calc(1rem);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2rem;
+
+  background-color: rgb(137 79 255 / 29%);
   color: ${colors.texts.white};
-  text-decoration: none;
-  background-color: rgb(251 251 251 / 0%);
-  border: 1px solid ${colors.primary.contrast};
-  border-radius: 3px;
 
   :focus {
-    border-style: inherit;
+    outline: none;
+    background-color: rgb(137 79 255 / 29%);
+    color: ${colors.texts.white};
+  }
+
+  ::placeholder {
+    color: ${colors.texts.white};
+    opacity: 0.5;
   }
 `

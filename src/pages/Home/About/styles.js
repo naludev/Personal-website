@@ -1,10 +1,8 @@
 import styled from 'styled-components'
-import { colors } from 'app/globals/colors'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  background-color: ${colors.backgrounds.black};
   justify-content: center;
   padding: 2rem;
 
@@ -12,6 +10,12 @@ export const Container = styled.div`
     display: inherit;
     flex-direction: column;
     padding: 1rem;
+    align-items: center;
+  }
+
+  @media (max-width: 1063px) {
+    flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -31,10 +35,12 @@ export const Footer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 5px;
 
   @media (max-width: 425px) {
     flex-direction: column;
     margin-top: 1rem;
+    flex-direction: row;
   }
 `
 

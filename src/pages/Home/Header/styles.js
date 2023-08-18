@@ -1,8 +1,7 @@
 import styled, { keyframes } from 'styled-components'
-import { colors } from 'app/globals/colors'
 
 export const StyledImage = styled.img`
-  max-width: 50vh;
+  max-width: 60vh;
   padding: 1em;
 
   @media (max-width: 425px) {
@@ -12,11 +11,11 @@ export const StyledImage = styled.img`
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
   text-align: -webkit-center;
   padding: 9rem 2rem 0 2rem;
-  background-color: ${colors.backgrounds.black};
 
   @media (max-width: 425px) {
     text-align: -webkit-center;
@@ -33,6 +32,15 @@ export const Footer = styled.div`
   padding: 1rem;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 425px) {
+    align-items: inherit;
+    align-items: center;
+  }
+
+  @media (max-width: 1063px) {
+    align-items: center;
+  }
 `
 
 export const ButtonsContainer = styled.div`
@@ -40,18 +48,23 @@ export const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media (max-width: 425px) {
+  @media (max-width: 1063px) {
+    flex-direction: row;
+  }
+
+  @media (max-width: 558px) {
     flex-direction: column;
   }
 `
 
-export const TextContainer = styled.div`
-  width: 70%;
-  max-width: 66vh;
-  text-align-last: center;
+export const Content = styled.div`
+  display: flex;
+  flex-direction: row;
 
-  @media (max-width: 425px) {
-    width: inherit;
+  @media (max-width: 1063px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -87,13 +100,26 @@ export const StyledSpan = styled.span`
 export const ContainerTitle = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 55ch;
+
+  @media (max-width: 1063px) {
+    width: inherit;
+    align-items: center;
+    padding: 0 8vw 0px 8vw;
+
+  }
 `
 
 export const HeaderTitle = styled.div`
-  gap: 15px;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+`
+
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 `
 
 export const SocialMediaContainer = styled.div`

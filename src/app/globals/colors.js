@@ -4,7 +4,7 @@ export const system = {
   darkBlack: '#000000',
   black: '#444444',
   green: '#1d7264',
-  darkerGreen: '#101010',
+  darkerGreen: '#894fff',
   lightGreen: '#a67dff',
   grey: '#73777B',
   lightGrey: '#fbfbfb',
