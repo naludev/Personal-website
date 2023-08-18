@@ -13,7 +13,6 @@ export const Head = styled.header`
   width: 100%;
   height: 4rem;
   background-color: ${colors.backgrounds.black};
-  box-shadow: 0px -4px 17px -4px ${colors.primary.contrast};
   grid-area: header;
 
   @media (max-width: 768px) {
@@ -38,10 +37,9 @@ export const NavLink = styled(RouterNavLink)`
   color: ${colors.primary.contrast};
   text-decoration: none;
   margin: 0 0.5rem;
-
-  &.active {
-    font-weight: bold;
-  }
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 14px;
 `
 
 export const MenuButton = styled.button`
