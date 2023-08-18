@@ -1,5 +1,5 @@
 export const fields = [
-  { id: 1, type: 'text', name: 'fullname' },
-  { id: 2, type: 'email', name: 'email' },
-  { id: 3, type: 'textarea', name: 'message' }
+  { id: 1, type: 'text', name: 'Fullname' },
+  { id: 2, type: 'email', name: 'E-mail' },
+  { id: 3, type: 'textarea', name: 'Message' }
 ]

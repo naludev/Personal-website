@@ -7,16 +7,17 @@ export const StyledLink = styled.a`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 30px;
+  padding: 4px 30px;
   box-shadow:7px 7px rgba(0,0,0,0.5);
   transition: .3s ease;
   overflow: hidden;
   cursor: pointer;
   margin: 0.5rem;
   text-decoration: none;
-  background-color: ${colors.backgrounds.lightGrey};
-  border: 1px solid ${colors.backgrounds.grey};
-  border-radius: 3px;
+  background-color: rgb(137 79 255 / 29%);
+  color: ${colors.primary.secondary};
+  border: 1px solid transparent;
+  border-radius: 20px;
  
   > :not(:last-child) {
     margin-right: 1rem;
@@ -28,8 +29,8 @@ export const StyledLink = styled.a`
   }
 
   :hover {
-    transform: translateY(7px) translateX(7px);
-    box-shadow: 0 0 ${colors.backgrounds.grey}; 
+    color: ${colors.primary.secondary};
+    border: 1px solid ${colors.primary.secondary};
   }
 
   @media (max-width: 425px) {
@@ -38,8 +39,6 @@ export const StyledLink = styled.a`
 `
 
 export const StyledText = styled.p`
-  color: ${colors.texts.black};
-
   @media (max-width: 425px) {
     font-size: 10px;
   }

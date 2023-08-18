@@ -44,6 +44,10 @@ const StyledText = css`
   }};
   font-size: 4vh;
 }
+
+@media (max-width: 1063px) {
+  font-size: 4vh;
+}
 `
 export const H1 = styled.h1`
 ${StyledText};

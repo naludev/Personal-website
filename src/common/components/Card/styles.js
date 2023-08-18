@@ -1,10 +1,44 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  color: #fafafa;
+const Container = styled.div`
   border-radius: 3px;
-  padding: 4px 19px;
-  border: dashed 1px;
-  width: fit-content;
-  font-size: 12px;
+  border: 1px dashed;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 320px) {
+    margin: 4px auto;
+    align-items: center;
+  }
+
+  @media (min-width: 321px) and (max-width: 768px) {
+    max-width: 348px;
+    margin: 4px auto;
+    align-items: center;
+  }
 `
+
+const Content = styled.div`
+  width: inherit;
+  align-self: center;
+`
+
+const StyledImage = styled.img`
+  width: 70vh;
+
+  @media (max-width: 320px) {
+    width: 18vh;
+  }
+
+  @media (min-width: 321px) and (max-width: 425px) {
+    width: 34vh;
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    width: 40vh;
+  }
+`
+
+export { Container, Content, StyledImage }

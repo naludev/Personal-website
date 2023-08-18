@@ -3,9 +3,9 @@ import { getAnalytics, logEvent } from 'firebase/analytics'
 import { initializeApp } from 'firebase/app'
 import { events, firebaseConfig } from 'app/utils/firebase'
 import NeonTitle from 'common/components/NeonTitle'
-import Footer from 'pages/Home/Footer'
+import Footer from 'common/components/Footer'
 import Title from 'common/components/Title'
-import BackgroundParticles from 'pages/Home/Header/Particles'
+import BackgroundParticles from 'common/components/Particles/Particles'
 import { Container } from './styles'
 import Form from './Form'
 
@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <Container>
       <BackgroundParticles />
-      <Title text="GET IN TOUCH" type="h6" color="contrast" />
+      <Title text="GET IN TOUCH" type="h6" color="secondary" />
       <NeonTitle type="h1" color="secondary" text="contact" />
       <Form />
       <Footer />

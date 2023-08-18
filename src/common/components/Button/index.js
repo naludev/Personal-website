@@ -1,9 +1,8 @@
 /* eslint-disable no-nested-ternary */
 import React from 'react'
 import PropTypes from 'prop-types'
-import Text from 'common/components/Text/index'
 import Icon from 'common/components/Icon'
-import { StyledButton } from './styles'
+import { StyledButton, StyledText } from './styles'
 
 const Button = ({ icon, onClick, text, disabled, type, value }) => (
   <StyledButton
@@ -13,7 +12,7 @@ const Button = ({ icon, onClick, text, disabled, type, value }) => (
     value={value}
   >
     {icon && <Icon size="small" icon={icon} />}
-    {text && <Text type="button1" text={text} />}
+    {text && <StyledText>{text}</StyledText>}
   </StyledButton>
 )
 
