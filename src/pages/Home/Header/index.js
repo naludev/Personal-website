@@ -35,7 +35,7 @@ export const Header = () => {
             <Footer>
               <ButtonsContainer>
                 <ButtonLink onClick={logEvent(analytics, events.HIRE_ME)} href="https://www.linkedin.com/in/naludev/" icon="touch" text="Hire me" />
-                <ButtonLink onClick={logEvent(analytics, events.DOWNLOAD_RESUME)} href={CV} download="yann_dev_cv" icon="download" text="Download my resume" />
+                <ButtonLink onClick={logEvent(analytics, events.DOWNLOAD_RESUME)} href={CV} download="nalu_dev_cv" icon="download" text="Download my resume" />
               </ButtonsContainer>
               <SocialMedia />
             </Footer>
