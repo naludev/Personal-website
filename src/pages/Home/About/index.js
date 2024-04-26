@@ -22,7 +22,7 @@ const About = () => (
           color="white"
         />
       </DescriptionContainer>
-      <ButtonLink href="https://www.linkedin.com/in/yanndev/" icon="touch" text="Get in touch" />
+      <ButtonLink href="https://www.linkedin.com/in/naludev/" icon="touch" text="Get in touch" />
     </Content>
     <LineContainer>
       <Trend

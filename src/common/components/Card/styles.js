@@ -6,7 +6,7 @@ const Container = styled.div`
   width: 100%;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   @media (max-width: 320px) {
     margin: 4px auto;
@@ -22,11 +22,11 @@ const Container = styled.div`
 
 const Content = styled.div`
   width: inherit;
-  align-self: center;
+  margin-top: 1rem;
 `
 
 const StyledImage = styled.img`
-  width: 70vh;
+  width: 45vh;
 
   @media (max-width: 320px) {
     width: 18vh;
