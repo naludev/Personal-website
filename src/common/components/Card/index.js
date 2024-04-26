@@ -2,6 +2,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Title from 'common/components/Title'
+import Text from 'common/components/Text'
 import { Container, Content, StyledImage } from './styles'
 import ButtonLink from '../Button/ButtonLink'
 
@@ -10,7 +11,7 @@ const Card = ({ title, src, description, githubLink, webLink }) => (
     <StyledImage src={src} alt="" />
     <Content>
       <Title text={title} type="h4" color="contrast" />
-      <Title text={description} type="h6" color="white" />
+      <Text text={description} type="subtitle1" color="white" />
       <ButtonLink href={githubLink} icon="touch" text="Github" />
       <ButtonLink href={webLink} icon="touch" text="Deploy" />
     </Content>
