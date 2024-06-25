@@ -1,72 +1,46 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 2rem;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+text-align: -webkit-center;
+padding: 2rem 15rem 0;
 
-  @media (max-width: 425px) {
-    display: inherit;
-    flex-direction: column;
-    padding: 1rem;
-    align-items: center;
+@media (max-width: 1063px) {
+  text-align: -webkit-center;
+  padding: 2rem 3rem 0;
+}
+
+@media (max-width: 768px) {
+  padding: inherit;
+}
+
+@media (max-width: 425px) {
+  h3 {
+    font-size: 13px;
   }
-
-  @media (max-width: 1063px) {
-    flex-direction: column;
-    align-items: center;
+  
+  h4 {
+    font-size: 12px;
   }
-`
-
-export const FooterContainer = styled.div`
-  z-index: 1;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
+}
 `
 
 export const TitleContainer = styled.div`
   display: flex;
 `
 
-export const Footer = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 5px;
-
-  @media (max-width: 425px) {
-    flex-direction: column;
-    margin-top: 1rem;
-    flex-direction: row;
-  }
-`
-
-export const StyledImage = styled.img`
-  width: 60%;
-  max-width: 40vh;
-  height: auto;
-`
-
-export const LineContainer = styled.div`
-  position: absolute;
-  width: 100%;
-  margin-top: 4rem;
-
-  @media (max-width: 425px) {
-    position: absolute;
-    width: 77%;
-    margin-top: 22rem;
-  }
-`
-
 export const Content = styled.div`
-  align-self: center;
-  text-align: center;
+  text-align: end;
+  padding: 2rem;
   z-index: 1;
-  max-width: 60vh;
+  width: inherit;
+
+  @media (max-width: 1063px) {
+    text-align: start;
+  }
 `
 
 export const DescriptionContainer = styled.div`
@@ -74,4 +48,9 @@ export const DescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
+  text-align: start;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `

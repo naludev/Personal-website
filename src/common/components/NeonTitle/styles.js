@@ -3,6 +3,7 @@ import { fontWeight, fontSize } from 'app/globals/fonts'
 import { colors } from 'app/globals/colors'
 
 const StyledText = css`
+  margin-top: -1rem !important;
   margin: 0;
   color: transparent; 
 
@@ -33,6 +34,10 @@ const StyledText = css`
       default: return fontSize.hmedium
     }
   }};
+
+  @media (max-width: 1063px) {
+    margin-top: 0 !important;
+  }
 
 @media (max-width: 425px) {
   -webkit-text-stroke: 1px ${({ color }) => {

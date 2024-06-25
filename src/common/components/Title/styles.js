@@ -36,7 +36,12 @@ const StyledText = css`
   }};
 
   @media (max-width: 425px) {
-    font-size: 2vh;
+    &:first-child {
+      font-size: 2vh;
+    }
+    &:last-child {
+      font-size: 3vh;
+    }
   }
 `
 export const H1 = styled.h1`

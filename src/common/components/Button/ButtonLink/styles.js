@@ -39,7 +39,7 @@ export const StyledLink = styled.a`
 `
 
 export const StyledText = styled.p`
-  @media (max-width: 425px) {
-    font-size: 10px;
+  @media (max-width: 768px) {
+    font-size: 12px;
   }
 `
