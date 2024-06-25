@@ -1,11 +1,15 @@
 import styled, { keyframes } from 'styled-components'
 
 export const StyledImage = styled.img`
-  max-width: 60vh;
+  max-width: 51vh;
   padding: 1em;
 
   @media (max-width: 425px) {
-    max-width: 40vh;
+    max-width: 51vh;
+  }  
+
+  @media (max-width: 375px) {
+    max-width: 43vh;
   }  
 `
 
@@ -15,11 +19,15 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   text-align: -webkit-center;
-  padding: 9rem 2rem 0 2rem;
+  padding: 4rem 2rem 0 2rem;
+
+  @media (max-width: 768px) {
+    padding: 3rem 1rem 0 1rem;
+  }
 
   @media (max-width: 425px) {
     text-align: -webkit-center;
-    padding: 6rem 1rem 0 1rem;
+    padding: 4rem 1rem 0 1rem;
   }
 `
 
@@ -29,7 +37,7 @@ export const TitleContainer = styled.div`
 
 export const Footer = styled.div`
   align-items: end;
-  padding: 1rem;
+  margin: 1rem 0;
   display: flex;
   flex-direction: column;
 
@@ -46,14 +54,10 @@ export const Footer = styled.div`
 export const ButtonsContainer = styled.div`
   margin-top: 0.5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 
   @media (max-width: 1063px) {
     flex-direction: row;
-  }
-
-  @media (max-width: 558px) {
-    flex-direction: column;
   }
 `
 
@@ -65,6 +69,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 80vh;
   }
 `
 
@@ -90,7 +95,7 @@ export const StyledSpan = styled.span`
   animation-iteration-count: infinite; 
   transform-origin: 70% 70%;      
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2rem;
 
   @media (max-width: 425px) {
     font-size: 3.5vh;
@@ -100,13 +105,17 @@ export const StyledSpan = styled.span`
 export const ContainerTitle = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: self-end;
   width: 55ch;
 
   @media (max-width: 1063px) {
     width: inherit;
     align-items: center;
-    padding: 0 8vw 0px 8vw;
+  }
 
+  @media (max-width: 768px) {
+    width: inherit;
+    align-items: center;
   }
 `
 
@@ -114,19 +123,27 @@ export const HeaderTitle = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: center;
+`
+export const HeaderBody = styled.div`
+  text-align: end;
+
+
+  @media (max-width: 1063px) {
+    text-align: center;
+  }
+
+  @media (max-width: 375px) {
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 320px) {
+    padding: 0 2rem;
+  }
 `
 
 export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-self: center;
-`
-
-export const SocialMediaContainer = styled.div`
-  gap: 10px;
-  align-items: center;
-  align-self: center;
-  display: inherit;
-  justify-content: center;
-  margin-top: 1rem;
 `

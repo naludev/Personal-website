@@ -1,20 +1,28 @@
-import { colors } from 'app/globals/colors'
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  justify-content: center;
-  justify-items: center;
+width: 100%;
+display: flex;
+-webkit-box-pack: center;
+justify-content: center;
+flex-direction: column;
+-webkit-box-align: center;
+align-items: center;
+padding: 2rem 15rem;
+`
+
+export const Content = styled.div`
+  padding: 0 2rem;
+  z-index: 1;
+  width: 100%;
+`
+
+export const DescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 4rem 2rem 0 2rem;
-  background: ${colors.backgrounds.black};
+  margin-bottom: 1rem;
 
-  @media (max-width: 425px) {
-    padding: 1rem 2rem 0px;
-  }
-
-  @media (max-width: 1063px) {
-    padding: 2rem 2rem 0px;
+  @media (max-width: 768px) {
+    text-align: center;
   }
 `

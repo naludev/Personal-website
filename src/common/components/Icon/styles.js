@@ -7,7 +7,8 @@ const iconColors = {
   black: colors.texts.black,
   purple: colors.primary.secondary
 }
-const sizes = {
+
+export const sizes = {
   xsmall: '1.25rem',
   small: '1rem',
   medium: '2.125rem',
@@ -21,8 +22,14 @@ export const StyledIcon = styled.div`
   width: var(--icon-size);
   height: var(--icon-size);
   ${({ color }) => color && css`
-    path{
-        fill: ${iconColors[color]}
+    path {
+      fill: ${iconColors[color]};
     }
   `}
+`
+
+export const ImageIcon = styled.img`
+  --icon-size: ${({ size }) => (size ? sizes[size] : sizes.medium)};
+  width: var(--icon-size);
+  height: var(--icon-size);
 `

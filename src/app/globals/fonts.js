@@ -20,9 +20,9 @@ export const HEADING_SIZE = {
   xsmall: '1.25rem',
   small: '1.5rem',
   medium: '2.125rem',
-  large: '5vh',
+  large: '4vh',
   xlarge: '3.625rem',
-  xxlarge: '6rem'
+  xxlarge: '3rem'
 }
 
 export const xlight = css`font-weight: ${WEIGHT.xlight};`

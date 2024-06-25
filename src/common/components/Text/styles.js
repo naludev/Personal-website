@@ -6,6 +6,10 @@ export const textStyle = css`
   color: ${({ color }) => getColor[color]};
   ${({ weight }) => getWeight[weight]};
   ${({ size }) => getSize[size]};
+
+  @media (max-width: 425px) {
+    font-size: 13px;
+  }  
 `
 
 export const StyledBody = styled.p`
