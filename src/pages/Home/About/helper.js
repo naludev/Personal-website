@@ -1,4 +1,3 @@
-// helper.js
 import React from 'react'
 import Text from 'common/components/Text'
 import Title from 'common/components/Title'

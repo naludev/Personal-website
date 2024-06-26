@@ -11,11 +11,7 @@ export const Projects = () => (
         <Title text="WHAT I DO" type="h6" color="secondary" />
         <NeonTitle text="projects" type="h1" color="secondary" />
       </DescriptionContainer>
-      <Text
-        color="white"
-        type="subtitle1"
-        text="Working on it"
-      />
+      <Text color="white" type="subtitle1" text="Working on it" />
     </Content>
   </Container>
 )

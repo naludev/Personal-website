@@ -14,7 +14,7 @@ export const Container = styled.form`
 
 export const StyledInput = styled.input`
   background: white;
-  color: rgb(7, 2, 18);
+  color: ${colors.texts.black};
   transition: all 200ms ease 0s;
   border: 0px;
   height: 2.4rem;

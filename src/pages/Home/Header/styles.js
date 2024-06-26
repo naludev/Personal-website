@@ -50,8 +50,8 @@ export const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: row-reverse;
 
-  @media (max-width: 1063px) {
-    flex-direction: row;
+  @media (max-width: 425px) {
+    flex-direction: column;
   }
 
   @media (max-width: 425px) {

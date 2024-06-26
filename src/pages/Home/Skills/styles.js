@@ -4,8 +4,8 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
-  width: 100%;
   justify-content: center;
+  width: 100%;
 `
 
 export const SkillItemContainer = styled.div`
@@ -27,17 +27,15 @@ export const ItemContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  width: 100%;
   justify-items: center;
   text-align: center;
   align-items: center;
-  
+  width: 100%;
+
   p {
     font-size: 11px;
-  }
 
-  @media (max-width: 768px) {
-    p {
+    @media (max-width: 768px) {
       font-size: 10px;
     }
   }
@@ -60,11 +58,11 @@ export const IconContainer = styled.div`
 `
 
 export const Container = styled.div`
-  width: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
   padding: 0rem 15rem;
 
   @media (max-width: 1063px) {
@@ -85,9 +83,9 @@ export const TitleContainer = styled.div`
 `
 
 export const Content = styled.div`
+  width: 100%;
   padding: 0 2rem;
   z-index: 1;
-  width: 100%;
 `
 
 export const DescriptionContainer = styled.div`
