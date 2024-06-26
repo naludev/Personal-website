@@ -1,4 +1,3 @@
-// About.js
 import React from 'react'
 import { renderDescription, renderTimeline } from './helper'
 import { Container, DescriptionContainer, Content } from './styles'

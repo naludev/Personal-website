@@ -14,7 +14,7 @@ export const StyledLink = styled.a`
   cursor: pointer;
   margin: 0.5rem;
   text-decoration: none;
-  background-color: rgb(137 79 255 / 29%);
+  background-color: ${colors.backgrounds.transparentViolet};
   color: ${colors.primary.secondary};
   border: 1px solid transparent;
   border-radius: 20px;

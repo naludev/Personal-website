@@ -1,12 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width: 100%;
 display: flex;
--webkit-box-pack: center;
 justify-content: center;
-flex-direction: column;
--webkit-box-align: center;
+flex-direction: row;
 align-items: center;
 padding: 2rem 15rem;
 
