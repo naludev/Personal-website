@@ -1,16 +1,10 @@
 import styled, { keyframes } from 'styled-components'
 
 export const StyledImage = styled.img`
-  max-width: 51vh;
-  padding: 1em;
-
-  @media (max-width: 425px) {
-    max-width: 51vh;
-  }  
-
-  @media (max-width: 375px) {
-    max-width: 43vh;
-  }  
+width: 100%;
+height: 300px;
+object-fit: contain;
+object-position: top;
 `
 
 export const Container = styled.div`
@@ -58,6 +52,10 @@ export const ButtonsContainer = styled.div`
 
   @media (max-width: 1063px) {
     flex-direction: row;
+  }
+
+  @media (max-width: 425px) {
+    flex-direction: column;
   }
 `
 

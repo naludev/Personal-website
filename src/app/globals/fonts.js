@@ -20,7 +20,7 @@ export const HEADING_SIZE = {
   xsmall: '1.25rem',
   small: '1.5rem',
   medium: '2.125rem',
-  large: '4vh',
+  large: '3rem',
   xlarge: '3.625rem',
   xxlarge: '3rem'
 }

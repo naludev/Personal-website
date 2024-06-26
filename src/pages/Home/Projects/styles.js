@@ -9,6 +9,10 @@ flex-direction: column;
 -webkit-box-align: center;
 align-items: center;
 padding: 2rem 15rem;
+
+@media (max-width: 768px) {
+  padding: inherit;
+}
 `
 
 export const Content = styled.div`
