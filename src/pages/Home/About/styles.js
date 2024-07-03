@@ -120,7 +120,7 @@ export const ItemTitle = styled.h3`
   margin: 0;
   padding: 0;
   font-size: 14px;
-  color: #fafafa;
+  color: ${colors.texts.white};
 `
 
 export const ItemSubtitle = styled.h4`
@@ -133,7 +133,7 @@ export const ItemSubtitle = styled.h4`
 export const ItemDetails = styled.div`
   margin: 0;
   padding: 0;
-  color: #fafafa;
+  color: ${colors.texts.white};
   font-size: 13px;
   line-height: 1.5;
 
