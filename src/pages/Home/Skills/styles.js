@@ -17,9 +17,9 @@ export const SkillItemContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background-color: #1f2937a8;
+  background-color: #1f29375c;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out;
 
