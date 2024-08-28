@@ -16,6 +16,10 @@ export const Content = styled.div`
   padding: 0 2rem;
   z-index: 1;
   width: 100%;
+
+  @media (max-width: 768px) {
+  text-align: -webkit-center;
+  }
 `
 
 export const DescriptionContainer = styled.div`

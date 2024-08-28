@@ -1,44 +1,105 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
-  border-radius: 3px;
-  border: 1px dashed;
+export const Container = styled.div`
+  position: relative;
   width: 100%;
-  text-align: center;
+  max-width: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+
+  @media (min-width: 769px) {
+    &:hover img,
+    &.active img {
+      filter: blur(8px);
+      transform: scale(1.1);
+    }
+
+    &:hover div,
+    &.active div {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
+
+export const StyledImage = styled.img`
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+
+  @media (max-width: 768px) {
+    transition: none;
+    filter: none;
+    transform: none;
+  }
+`
+
+export const Overlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-  @media (max-width: 320px) {
-    margin: 4px auto;
-    align-items: center;
+  @media (min-width: 769px) {
+    &.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
-  @media (min-width: 321px) and (max-width: 768px) {
-    max-width: 348px;
-    margin: 4px auto;
-    align-items: center;
-  }
-`
-
-const Content = styled.div`
-  width: inherit;
-  margin-top: 1rem;
-`
-
-const StyledImage = styled.img`
-  width: 45vh;
-
-  @media (max-width: 320px) {
-    width: 18vh;
-  }
-
-  @media (min-width: 321px) and (max-width: 425px) {
-    width: 34vh;
-  }
-
-  @media (min-width: 426px) and (max-width: 768px) {
-    width: 40vh;
+  @media (max-width: 768px) {
+    position: relative;
+    background: none;
+    opacity: 1;
+    transform: none;
   }
 `
 
-export { Container, Content, StyledImage }
+export const Content = styled.div`
+  color: white;
+  text-align: center;
+  padding: 1rem;
+`
+
+export const TextContent = styled.div`
+  margin-bottom: 16px;
+
+  h4 {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  a {
+    margin: 0 8px;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+`

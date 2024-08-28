@@ -42,9 +42,11 @@ const items = [{
   ]
 },
 {
-  title: 'Learning',
+  title: 'Backend',
   items: [
-    { icon: 'git', description: 'Node JS' }
+    { icon: 'nodejs', description: 'Node JS' },
+    { icon: 'mongodb', description: 'Mongo DB' },
+    { icon: 'swagger', description: 'Swagger' }
   ]
 }
 ]
