@@ -32,4 +32,8 @@ export const ImageIcon = styled.img`
   --icon-size: ${({ size }) => (size ? sizes[size] : sizes.medium)};
   width: var(--icon-size);
   height: var(--icon-size);
+
+  @media (max-width: 768px) {
+   --icon-size: 1.5rem;
+  }
 `

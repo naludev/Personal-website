@@ -5,6 +5,14 @@ width: 100%;
 height: 30vw;
 object-fit: contain;
 object-position: top;
+
+ @media (max-width: 768px) {
+   height: 50vw;
+  }
+
+   @media (max-width: 425px) {
+   height: 90vw;
+  }
 `
 
 export const Container = styled.div`
