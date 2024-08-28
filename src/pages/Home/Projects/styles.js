@@ -13,7 +13,7 @@ padding: 2rem 15rem;
 `
 
 export const Content = styled.div`
-  padding: 0 2rem;
+  padding: 1rem 0 2rem;
   z-index: 1;
   width: 100%;
 
