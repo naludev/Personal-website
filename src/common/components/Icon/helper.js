@@ -20,14 +20,17 @@ import git from 'assets/icons/git.png'
 import gitlab from 'assets/icons/gitlab.png'
 import html from 'assets/icons/html.png'
 import javascript from 'assets/icons/javascript.png'
+import mongodb from 'assets/icons/mongodb.png'
 import nextjs from 'assets/icons/nextjs.png'
 import nextjs2 from 'assets/icons/nextjs2.png'
+import nodejs from 'assets/icons/nodejs.png'
 import npm from 'assets/icons/npm.png'
 import payment from 'assets/icons/payment.png'
 import reactnative from 'assets/icons/reactnative.png'
 import sass from 'assets/icons/sass.png'
 import stripe from 'assets/icons/stripe.png'
 import svelte from 'assets/icons/svelte.png'
+import swagger from 'assets/icons/swagger.png'
 import tailwind from 'assets/icons/tailwind.png'
 import test from 'assets/icons/test.png'
 import typescript from 'assets/icons/typescript.png'
@@ -52,8 +55,10 @@ export const icons = {
   instagram: Instagram,
   javascript,
   linkedin: Linkedin,
+  mongodb,
   nextjs,
   nextjs2,
+  nodejs,
   npm,
   payment,
   reactnative,
@@ -62,6 +67,7 @@ export const icons = {
   stripe,
   styledcomponent: StyledComponent,
   svelte,
+  swagger,
   tailwind,
   test,
   touch: Touch,

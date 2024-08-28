@@ -2,7 +2,7 @@ import styled, { keyframes } from 'styled-components'
 
 export const StyledImage = styled.img`
 width: 100%;
-height: 300px;
+height: 30vw;
 object-fit: contain;
 object-position: top;
 `

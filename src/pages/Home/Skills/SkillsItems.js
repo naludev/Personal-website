@@ -1,4 +1,3 @@
-// SkillsItems.js
 import React from 'react'
 import Title from 'common/components/Title'
 import Text from 'common/components/Text'

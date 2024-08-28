@@ -7,7 +7,7 @@ justify-content: center;
 flex-direction: row;
 align-items: center;
 text-align: -webkit-center;
-padding: 0rem 15rem 0;
+padding: 2rem 15rem 0;
 
 @media (max-width: 1063px) {
   text-align: -webkit-center;
