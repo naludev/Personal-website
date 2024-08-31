@@ -30,7 +30,7 @@ management and promotion visibility. Leveraged React Native and Redux Toolkit te
   title: 'Dec 2021 - Ago 2022',
   cardTitle: 'Jr Adv Web UI Developer',
   cardSubtitle: 'Globant',
-  cardDetailedText: `160 Driving Academy: Led the development of a web platform for truck drivers' job searches, increasing
+  cardDetailedText: `160 Driving Academy: Development of a web platform for truck drivers' job searches, increasing
   process efficiency by 40%. The application, built with React Js, features job posting, user profile
   management, and advanced mapping capabilities. Integrated Celero for seamless payment processing,
   significantly enhancing user navigation and job categorization.
