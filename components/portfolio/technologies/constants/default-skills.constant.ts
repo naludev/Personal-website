@@ -19,7 +19,7 @@ export const DEFAULT_SKILLS_TRANSLATIONS: SkillsDataProps = {
             name: "React",
             description: "Building interactive UIs with hooks, context, and modern React patterns.",
             icon: "⚛️",
-            color: "bg-cyan-500/10 text-cyan-500",
+            color: "bg-yellow-500/10 text-yellow-500",
         },
         {
             name: "Next.js",
@@ -37,7 +37,7 @@ export const DEFAULT_SKILLS_TRANSLATIONS: SkillsDataProps = {
             name: "Tailwind CSS",
             description: "Utility-first CSS framework for rapid UI development.",
             icon: "🎨",
-            color: "bg-teal-500/10 text-teal-500",
+            color: "bg-yellow-500/10 text-yellow-500",
         },
         {
             name: "Node.js",
