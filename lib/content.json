@@ -1,0 +1,1004 @@
+{
+  "es": {
+    "header": {
+      "navItems": [
+        {
+          "label": "Sobre mí",
+          "href": "#about"
+        },
+        {
+          "label": "Experiencia",
+          "href": "#experience"
+        },
+        {
+          "label": "Proyectos",
+          "href": "#projects"
+        },
+        {
+          "label": "Tecnologías",
+          "href": "#skills"
+        },
+        {
+          "label": "Contacto",
+          "href": "#contact"
+        }
+      ]
+    },
+    "hero": {
+      "available": "Disponible para nuevos proyectos",
+      "name": "Nalú Muñoz",
+      "role": "Senior Software Engineer",
+      "description": "+4 años construyendo aplicaciones móviles y web escalables en fintech, e-commerce y SaaS. Especializado en ",
+      "location": "Montevideo, Uruguay",
+      "cta": "Contactar",
+      "ctaSecondary": "Ver Experiencia",
+      "codeComment": "// Senior Software Engineer",
+      "stats": {
+        "years": "Años de experiencia",
+        "code": "Código limpio"
+      }
+    },
+    "about": {
+      "sectionLabel": "// Sobre mí",
+      "title": "Construyo experiencias digitales que importan",
+      "photoName": "Nalú Muñoz",
+      "photoRole": "Senior Software Engineer",
+      "photoLocation": "Montevideo, Uruguay",
+      "paragraphs": [
+        "Soy un ingeniero de software apasionado por crear aplicaciones móviles y web que no solo funcionan, sino que",
+        "escalan y perduran",
+        ". Mi experiencia abarca desde apps bancarias hasta plataformas de e-commerce headless."
+      ],
+      "paragraph2": {
+        "text": "En los últimos 4 años, he trabajado con equipos en",
+        "companies": [
+          "Sofka",
+          "Broken Rubik",
+          "Globant"
+        ],
+        "suffix": ", construyendo productos que millones de usuarios utilizan a diario."
+      },
+      "paragraph3": "Mi enfoque: código limpio, arquitectura sólida y una obsesión por la experiencia del usuario. Cada línea de código que escribo tiene un propósito claro.",
+      "features": {
+        "mobileFirst": {
+          "title": "Mobile First",
+          "description": "Apps nativas con React Native que se sienten como en casa en iOS y Android."
+        },
+        "fullstack": {
+          "title": "Fullstack",
+          "description": "Desde el frontend hasta el backend, construyo soluciones completas."
+        },
+        "cleanCode": {
+          "title": "Código Limpio",
+          "description": "TypeScript, testing y arquitectura que escala con tu negocio."
+        },
+        "performance": {
+          "title": "Performance",
+          "description": "Optimización constante para experiencias fluidas y rápidas."
+        }
+      }
+    },
+    "experience": {
+      "sectionLabel": "// Experiencia",
+      "title": "Dónde he trabajado",
+      "jobs": [
+        {
+          "company": "Sofka",
+          "role": "Senior Mobile Engineer",
+          "period": "Oct 2024 – Feb 2026",
+          "description": [
+            "Desarrollé y mantuve una aplicación móvil de banca (Diners) para clientes premium utilizando React Native y TypeScript, garantizando una experiencia segura y escalable.",
+            "Construí funcionalidades tanto en la aplicación móvil como en la plataforma de administración, asegurando consistencia entre la experiencia de usuario y las herramientas de configuración interna.",
+            "Implementé un sistema de configuración dinámica (temas, branding, contenido) que permite actualizaciones en tiempo real sin necesidad de nuevos despliegues de la aplicación.",
+            "Lideré el desarrollo de funcionalidades financieras centrales como billetera, transferencias, pagos QR y flujos de transacciones.",
+            "Integré autenticación biométrica (Facephi) para elevar los estándares de seguridad y optimizar la experiencia del usuario.",
+            "Colaboré con equipos de backend y producto para entregar funcionalidades confiables y escalables en un entorno fintech.",
+            "Contribuí a mejorar la flexibilidad y los procesos de lanzamiento mediante el desacoplamiento de la configuración de las builds de mobile."
+          ],
+          "technologies": [
+            "React Native",
+            "TypeScript",
+            "Redux",
+            "Facephi",
+            "Hexagonal Architecture",
+            "Secure Code Review",
+            "Unit Testing",
+            "Push Notifications",
+            "Analytics",
+            "Figma"
+          ]
+        },
+        {
+          "company": "Broken Rubik",
+          "role": "Senior Software Developer (Ssr lvl3)",
+          "period": "Nov 2022 – Mar 2024",
+          "description": [
+            "Lideré el desarrollo de una plataforma de e-commerce headless (React + Medusa + NetSuite), habilitando arquitectura modular y mejorando la escalabilidad.",
+            "Construí y lancé un CMS personalizado usando Sanity, permitiendo a stakeholders no técnicos crear y gestionar landing pages → reduciendo la participación de desarrolladores en ~40%.",
+            "Integré sistemas de backend complejos (NetSuite + SuiteScript), asegurando consistencia de datos y rendimiento estable en producción."
+          ],
+          "technologies": [
+            "React",
+            "Next.js",
+            "Medusa",
+            "NetSuite",
+            "Sanity",
+            "TypeScript"
+          ]
+        },
+        {
+          "company": "Globant",
+          "role": "Ssr Mobile Developer / Web UI Developer",
+          "period": "Dic 2021 – Nov 2022",
+          "description": [
+            "Desarrollé una aplicación móvil para Alsea España usando React Native y Redux Toolkit, mejorando visibilidad de promociones y consistencia multi-marca.",
+            "Aumenté la eficiencia operacional en 40% mediante mejoras de UX y automatización de workflows.",
+            "Diseñé e implementé funcionalidades de publicación de empleos, perfiles de usuario y features basadas en geolocalización.",
+            "Integré procesamiento de pagos (Celero), mejorando el flujo de transacciones y conversión de usuarios."
+          ],
+          "technologies": [
+            "React Native",
+            "Redux Toolkit",
+            "React",
+            "REST APIs",
+            "Celero"
+          ]
+        },
+        {
+          "company": "Shaman Development Studio",
+          "role": "Jr Web UI Developer",
+          "period": "Feb 2021 – Jun 2021",
+          "description": [
+            "Desarrollé una plataforma en React JS para Aladi (Asociación Latinoamericana de Integración), facilitando el networking regional.",
+            "Implementé salas de videoconferencia para encuentros entre importadores y exportadores latinoamericanos.",
+            "Gestioné paneles de administración complejos para la gestión de usuarios, empresas, roles y catálogos de productos."
+          ],
+          "technologies": [
+            "React",
+            "JavaScript",
+            "Video Conferencing",
+            "Admin Panels"
+          ]
+        },
+        {
+          "company": "DIXTRA",
+          "role": "Software Developer Intern",
+          "period": "Ago 2020 – Feb 2021",
+          "description": [
+            "Diseñé y desarrollé 'Tu Shopper', una aplicación móvil en React Native con escáner de códigos de barras y pagos integrados.",
+            "Desarrollé la aplicación móvil 'Nippy for Delivery', centralizando beneficios para trabajadores independientes del sector delivery.",
+            "Construí una landing page corporativa dinámica utilizando React JS, Next JS y Strapi CMS para la gestión de contenidos.",
+            "Desarrollé 'UES GO', una aplicación móvil logística con seguimiento de pedidos en tiempo real sobre mapas (MobX)."
+          ],
+          "technologies": [
+            "React Native",
+            "React",
+            "Next.js",
+            "MobX",
+            "Strapi CMS",
+            "SASS"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "sectionLabel": "// Tecnologías",
+      "title": "Las herramientas que uso para construir",
+      "subtitle": "Trabajo con tecnologías modernas que permiten crear aplicaciones rápidas, escalables y mantenibles a largo plazo.",
+      "alsoWorkWith": "También trabajo con",
+      "items": [
+        {
+          "name": "TypeScript",
+          "description": "JavaScript con cero errores inesperados. Para proyectos que escalan, TypeScript garantiza que el código no se rompa cuando el negocio crece.",
+          "icon": "TS",
+          "color": "bg-blue-500/20 text-blue-400"
+        },
+        {
+          "name": "React",
+          "description": "Para cuando la app necesita más que páginas estáticas. Paneles, apps interactivas o plataformas que crecen con tu negocio sin rehacerse desde cero.",
+          "icon": "⚛",
+          "color": "bg-yellow-500/20 text-yellow-500"
+        },
+        {
+          "name": "React Native",
+          "description": "Apps móviles nativas con una sola base de código. Rendimiento nativo, desarrollo ágil y consistencia entre iOS y Android.",
+          "icon": "📱",
+          "color": "bg-purple-500/20 text-purple-400"
+        },
+        {
+          "name": "Next.js",
+          "description": "El framework de React para producción. SSR, SSG, API routes y optimizaciones de performance out of the box.",
+          "icon": "▲",
+          "color": "bg-foreground/20 text-foreground"
+        },
+        {
+          "name": "Node.js",
+          "description": "Backend JavaScript para APIs escalables. REST, GraphQL, microservicios y todo lo que tu aplicación necesita del lado del servidor.",
+          "icon": "⬢",
+          "color": "bg-green-500/20 text-green-400"
+        },
+        {
+          "name": "Vue.js",
+          "description": "Framework progresivo para interfaces de usuario. Ideal para proyectos que necesitan flexibilidad y una curva de aprendizaje suave.",
+          "icon": "V",
+          "color": "bg-yellow-500/20 text-yellow-500"
+        }
+      ],
+      "additionalSkills": [
+        "Hexagonal Architecture",
+        "Redux / Toolkit",
+        "MobX",
+        "Unit Testing (Jest)",
+        "Facephi (Biometrics)",
+        "Secure Code Review",
+        "REST APIs & BFF",
+        "NetSuite & SuiteScript",
+        "Medusa & Headless E-commerce",
+        "Sanity & Strapi CMS",
+        "Tailwind CSS & SASS",
+        "Google Maps & Geolocation",
+        "Barcode Scanning",
+        "Push Notifications",
+        "Agile / Scrum",
+        "CI/CD (GitHub Actions)",
+        "Figma"
+      ]
+    },
+    "projects": {
+      "sectionLabel": "// Proyectos",
+      "title": "Lo que he construido",
+      "subtitle": "Proyectos reales que resuelven problemas de negocio en fintech, e-commerce y más. Cada uno representa un desafío técnico distinto y una solución escalable.",
+      "cta": {
+        "question": "¿Interesado en trabajar juntos?",
+        "link": "Hablemos sobre tu proyecto"
+      },
+      "items": [
+        {
+          "title": "Banca Mobile Premium (Diners)",
+          "type": "Mobile App",
+          "company": "Sofka",
+          "year": "2024-2026",
+          "description": "Aplicación bancaria móvil para clientes premium con transacciones, wallet management, pagos QR y autenticación biométrica (Facephi). Incluye plataforma de administración dinámica para configuración en tiempo real y arquitectura hexagonal.",
+          "iconType": "smartphone",
+          "technologies": [
+            "React Native",
+            "TypeScript",
+            "Redux",
+            "Facephi",
+            "Hexagonal Arch"
+          ],
+          "highlights": [
+            "Autenticación Facephi",
+            "Admin dinámico",
+            "Arquitectura Escalable"
+          ]
+        },
+        {
+          "title": "Headless E-commerce & CMS",
+          "type": "E-commerce Platform",
+          "company": "Broken Rubik",
+          "year": "2022-2024",
+          "description": "Lideré el desarrollo de una plataforma e-commerce headless integrada con Medusa y NetSuite. Consumo de datos en tiempo real y arquitectura orientada a performance.",
+          "iconType": "cart",
+          "technologies": [
+            "React",
+            "Medusa",
+            "NetSuite",
+            "Node.js",
+            "TypeScript"
+          ],
+          "highlights": [
+            "Integración Medusa",
+            "NetSuite Backend",
+            "Headless Arch"
+          ]
+        },
+        {
+          "title": "Oborne Health Supplies",
+          "type": "Web Platform",
+          "company": "Broken Rubik",
+          "year": "2022-2024",
+          "description": "Mantenimiento y evolución de una plataforma de venta de productos farmacéuticos y homeopáticos. Integra eficientemente a pacientes y médicos.",
+          "iconType": "building",
+          "technologies": [
+            "Backbone",
+            "SuiteScript",
+            "NetSuite"
+          ],
+          "highlights": [
+            "E-commerce Pharma",
+            "Canales de comunicación",
+            "Soporte NetSuite"
+          ]
+        },
+        {
+          "title": "Club Alsea España",
+          "type": "Mobile App",
+          "company": "Globant",
+          "year": "2022",
+          "description": "Aplicación móvil para el club de fidelización de restaurantes de Alsea, con foco en gestión unificada de marca y visibilidad de promociones.",
+          "iconType": "globe",
+          "technologies": [
+            "React Native",
+            "Redux Toolkit"
+          ],
+          "highlights": [
+            "Fidelización masiva",
+            "Gestión Multi-marca",
+            "App member club"
+          ]
+        },
+        {
+          "title": "160 Driving Academy",
+          "type": "Web Platform",
+          "company": "Globant",
+          "year": "2021-2022",
+          "description": "Plataforma de búsqueda de empleo para conductores de camiones, aumentando la eficiencia del proceso en un 40%. Incluye mapas avanzados y pagos integrados.",
+          "iconType": "truck",
+          "technologies": [
+            "React JS",
+            "Celero",
+            "Google Maps API"
+          ],
+          "highlights": [
+            "+40% Eficiencia",
+            "Pagos Celero",
+            "Mapping avanzado"
+          ]
+        },
+        {
+          "title": "Empowered Brain",
+          "type": "AR & Web platform",
+          "company": "Independent Developer",
+          "year": "2021",
+          "description": "Aplicaciones y juegos de realidad aumentada (Google Glass) para niños con necesidades especiales (autismo). Gestión de estudiantes y evaluaciones de rendimiento.",
+          "iconType": "activity",
+          "technologies": [
+            "React JS",
+            "Google Glass",
+            "Android",
+            "AR"
+          ],
+          "highlights": [
+            "EdTech inclusiva",
+            "Juegos AR",
+            "Seguimiento de alumnos"
+          ]
+        },
+        {
+          "title": "Santander Mobile Banking",
+          "type": "Mobile App",
+          "company": "Independent Developer",
+          "year": "2021",
+          "description": "App de banca móvil con funcionalidades completas: gestión de sesiones, pagos de servicios, facturas e integración con pasarelas de pago seguras.",
+          "iconType": "smartphone",
+          "technologies": [
+            "React Native",
+            "TypeScript",
+            "Payment Gateways"
+          ],
+          "highlights": [
+            "Seguridad bancaria",
+            "Gestión de facturas",
+            "UX financiera"
+          ]
+        },
+        {
+          "title": "Aladi - Rueda de Negocios",
+          "type": "Web Platform",
+          "company": "Shaman Studio",
+          "year": "2021",
+          "description": "Plataforma de videoconferencias y networking para importadores y exportadores de Latinoamérica. Organización de reuniones y gestión de productos.",
+          "iconType": "video",
+          "technologies": [
+            "React JS",
+            "Video Conferencing",
+            "Role Management"
+          ],
+          "highlights": [
+            "Networking regional",
+            "Salas dinámicas",
+            "E-commerce B2B"
+          ]
+        },
+        {
+          "title": "Tu Shopper",
+          "type": "Mobile App",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Aplicación móvil enfocada en la gestión de productos y compras mediante escáner de códigos de barras integrado en la tienda.",
+          "iconType": "smartphone",
+          "technologies": [
+            "React Native",
+            "Barcode Scanning",
+            "Payments"
+          ],
+          "highlights": [
+            "Shopping ágil",
+            "Pagos In-app",
+            "Scanner integrado"
+          ]
+        },
+        {
+          "title": "Nippy for Delivery",
+          "type": "Mobile App",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Aplicación para trabajadores independientes (Riders de delivery) que centraliza beneficios y oportunidades laborales.",
+          "iconType": "smartphone",
+          "technologies": [
+            "React Native",
+            "Gig Economy Tech"
+          ],
+          "highlights": [
+            "App para Riders",
+            "Gestión de beneficios",
+            "Social Impact"
+          ]
+        },
+        {
+          "title": "Corporate Landing Page",
+          "type": "Web Page",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Landing page dinámica con blog integrado y gestión de contenidos mediante CMS. SEO optimizado y performance excepcional.",
+          "iconType": "layout",
+          "technologies": [
+            "React JS",
+            "Next.js",
+            "SASS",
+            "Strapi CMS"
+          ],
+          "highlights": [
+            "Strapi CMS",
+            "Blog dinámico",
+            "SEO ready"
+          ]
+        },
+        {
+          "title": "UES GO",
+          "type": "Mobile App",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Aplicación móvil logística para la entrega de pedidos. Seguimiento en tiempo real vía mapas y soluciones de pago integradas.",
+          "iconType": "smartphone",
+          "technologies": [
+            "React Native",
+            "Mobx",
+            "Real-time Tracking"
+          ],
+          "highlights": [
+            "Tracking en vivo",
+            "Logística ágil",
+            "Pagos integrados"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "sectionLabel": "// Contacto",
+      "title": "¿Listo para construir algo increíble?",
+      "subtitle": "Ya sea que necesites una aplicación móvil, una plataforma web o un equipo técnico reforzado, estoy aquí para ayudar. Enviame un mensaje y conversemos sobre tu proyecto.",
+      "email": "Email",
+      "location": "Ubicación",
+      "locationValue": "Montevideo, Uruguay",
+      "directConnect": "O conecta directamente",
+      "sendEmail": "Enviar email",
+      "form": {
+        "title": "Enviame un mensaje",
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "email": "Email",
+        "emailPlaceholder": "tu@email.com",
+        "message": "Mensaje",
+        "messagePlaceholder": "Contame sobre tu proyecto...",
+        "submit": "Enviar mensaje"
+      }
+    },
+    "footer": {
+      "role": "Senior Software Engineer",
+      "rights": "Todos los derechos reservados."
+    }
+  },
+  "en": {
+    "header": {
+      "navItems": [
+        {
+          "label": "About",
+          "href": "#about"
+        },
+        {
+          "label": "Experience",
+          "href": "#experience"
+        },
+        {
+          "label": "Projects",
+          "href": "#projects"
+        },
+        {
+          "label": "Technologies",
+          "href": "#skills"
+        },
+        {
+          "label": "Contact",
+          "href": "#contact"
+        }
+      ]
+    },
+    "hero": {
+      "available": "Available for new projects",
+      "name": "Nalú Muñoz",
+      "role": "Senior Software Engineer",
+      "description": "+4 years building scalable mobile and web applications in fintech, e-commerce, and SaaS. Specialized in ",
+      "location": "Montevideo, Uruguay",
+      "cta": "Contact",
+      "ctaSecondary": "View Experience",
+      "codeComment": "// Senior Software Engineer",
+      "stats": {
+        "years": "Years of experience",
+        "code": "Clean code"
+      }
+    },
+    "about": {
+      "sectionLabel": "// About me",
+      "title": "I build digital experiences that matter",
+      "photoName": "Nalú Muñoz",
+      "photoRole": "Senior Software Engineer",
+      "photoLocation": "Montevideo, Uruguay",
+      "paragraphs": [
+        "I'm a software engineer passionate about creating mobile and web applications that not only work, but",
+        "scale and last",
+        ". My experience ranges from banking apps to headless e-commerce platforms."
+      ],
+      "paragraph2": {
+        "text": "Over the last 4 years, I've worked with teams at",
+        "companies": [
+          "Sofka",
+          "Broken Rubik",
+          "Globant"
+        ],
+        "suffix": ", building products that millions of users use daily."
+      },
+      "paragraph3": "My approach: clean code, solid architecture, and an obsession with user experience. Every line of code I write has a clear purpose.",
+      "features": {
+        "mobileFirst": {
+          "title": "Mobile First",
+          "description": "Native apps with React Native that feel at home on iOS and Android."
+        },
+        "fullstack": {
+          "title": "Fullstack",
+          "description": "From frontend to backend, I build complete solutions."
+        },
+        "cleanCode": {
+          "title": "Clean Code",
+          "description": "TypeScript, testing, and architecture that scales with your business."
+        },
+        "performance": {
+          "title": "Performance",
+          "description": "Constant optimization for smooth and fast experiences."
+        }
+      }
+    },
+    "experience": {
+      "sectionLabel": "// Experience",
+      "title": "Where I've worked",
+      "jobs": [
+        {
+          "company": "Sofka",
+          "role": "Senior Mobile Engineer",
+          "period": "Oct 2024 – Feb 2026",
+          "description": [
+            "Developed and maintained a mobile banking application (Diners) using React Native and TypeScript, contributing to a secure and scalable experience for premium users.",
+            "Built features across both the mobile app and admin platform, ensuring consistency between user experience and internal configuration tools.",
+            "Implemented a dynamic configuration system (theming, branding, content) allowing real-time updates without requiring app redeployments.",
+            "Worked on core financial functionalities including wallet, transfers, QR payments, and transaction flows.",
+            "Integrated biometric authentication (Facephi) to improve security and user experience.",
+            "Collaborated with backend and product teams to deliver reliable features in a fintech environment.",
+            "Contributed to improving flexibility and release processes by decoupling configuration from mobile builds."
+          ],
+          "technologies": [
+            "React Native",
+            "TypeScript",
+            "Redux",
+            "Facephi",
+            "Hexagonal Architecture",
+            "Secure Code Review",
+            "Unit Testing",
+            "Push Notifications",
+            "Analytics",
+            "Figma"
+          ]
+        },
+        {
+          "company": "Broken Rubik",
+          "role": "Senior Software Developer (Ssr lvl3)",
+          "period": "Nov 2022 – Mar 2024",
+          "description": [
+            "Led development of a headless e-commerce platform (React + Medusa + NetSuite), enabling modular architecture and improving scalability.",
+            "Built and launched a custom CMS using Sanity, allowing non-technical stakeholders to create and manage landing pages → reducing developer involvement by ~40%.",
+            "Integrated complex backend systems (NetSuite + SuiteScript), ensuring data consistency and stable production performance."
+          ],
+          "technologies": [
+            "React",
+            "Next.js",
+            "Medusa",
+            "NetSuite",
+            "Sanity",
+            "TypeScript"
+          ]
+        },
+        {
+          "company": "Globant",
+          "role": "Ssr Mobile Developer / Web UI Developer",
+          "period": "Dec 2021 – Nov 2022",
+          "description": [
+            "Developed a mobile app for Alsea Spain using React Native and Redux Toolkit, improving promotion visibility and multi-brand consistency.",
+            "Increased operational efficiency by 40% through UX improvements and workflow automation.",
+            "Designed and implemented job posting features, user profiles, and geolocation-based features.",
+            "Integrated payment processing (Celero), improving transaction flow and user conversion."
+          ],
+          "technologies": [
+            "React Native",
+            "Redux Toolkit",
+            "React",
+            "REST APIs",
+            "Celero"
+          ]
+        },
+        {
+          "company": "Shaman Development Studio",
+          "role": "Jr Web UI Developer",
+          "period": "Feb 2021 – Jun 2021",
+          "description": [
+            "Developed a React JS platform for Aladi (Latin American Integration Association), facilitating regional business networking.",
+            "Implemented video conferencing rooms for meetings between Latin American importers and exporters.",
+            "Managed complex administration panels for user, company, role, and product catalog management."
+          ],
+          "technologies": [
+            "React",
+            "JavaScript",
+            "Video Conferencing",
+            "Admin Panels"
+          ]
+        },
+        {
+          "company": "DIXTRA",
+          "role": "Software Developer Intern",
+          "period": "Aug 2020 – Feb 2021",
+          "description": [
+            "Designed and developed 'Tu Shopper', a React Native mobile application featuring a barcode scanner and integrated payments.",
+            "Developed the 'Nippy for Delivery' mobile application, centralizing benefits for gig economy workers.",
+            "Built a dynamic corporate landing page using React JS, Next JS, and Strapi CMS for content management.",
+            "Developed 'UES GO', a mobile logistics application with real-time order tracking via maps (MobX)."
+          ],
+          "technologies": [
+            "React Native",
+            "React",
+            "Next.js",
+            "MobX",
+            "Strapi CMS",
+            "SASS"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "sectionLabel": "// Technologies",
+      "title": "The tools I use to build",
+      "subtitle": "I work with modern technologies that enable fast, scalable, and maintainable applications.",
+      "alsoWorkWith": "I also work with",
+      "items": [
+        {
+          "name": "TypeScript",
+          "description": "JavaScript with zero unexpected errors. For projects that scale, TypeScript ensures code doesn't break when the business grows.",
+          "icon": "TS",
+          "color": "bg-blue-500/20 text-blue-400"
+        },
+        {
+          "name": "React",
+          "description": "For when the app needs more than static pages. Panels, interactive apps, or platforms that grow with your business without rebuilding from scratch.",
+          "icon": "⚛",
+          "color": "bg-yellow-500/20 text-yellow-500"
+        },
+        {
+          "name": "React Native",
+          "description": "Native mobile apps with a single codebase. Native performance, agile development, and consistency between iOS and Android.",
+          "icon": "📱",
+          "color": "bg-purple-500/20 text-purple-400"
+        },
+        {
+          "name": "Next.js",
+          "description": "The React framework for production. SSR, SSG, API routes, and performance optimizations out of the box.",
+          "icon": "▲",
+          "color": "bg-foreground/20 text-foreground"
+        },
+        {
+          "name": "Node.js",
+          "description": "JavaScript backend for scalable APIs. REST, GraphQL, microservices, and everything your app needs on the server side.",
+          "icon": "⬢",
+          "color": "bg-green-500/20 text-green-400"
+        },
+        {
+          "name": "Vue.js",
+          "description": "Progressive framework for user interfaces. Ideal for projects that need flexibility and a smooth learning curve.",
+          "icon": "V",
+          "color": "bg-yellow-500/20 text-yellow-500"
+        }
+      ],
+      "additionalSkills": [
+        "Hexagonal Architecture",
+        "Redux / Toolkit",
+        "MobX",
+        "Unit Testing (Jest)",
+        "Facephi (Biometrics)",
+        "Secure Code Review",
+        "REST APIs & BFF",
+        "NetSuite & SuiteScript",
+        "Medusa & Headless E-commerce",
+        "Sanity & Strapi CMS",
+        "Tailwind CSS & SASS",
+        "Google Maps & Geolocation",
+        "Barcode Scanning",
+        "Push Notifications",
+        "Agile / Scrum",
+        "CI/CD (GitHub Actions)",
+        "Figma"
+      ]
+    },
+    "projects": {
+      "sectionLabel": "// Projects",
+      "title": "What I've built",
+      "subtitle": "Real projects that solve business problems in fintech, e-commerce, and more. Each represents a distinct technical challenge and a scalable solution.",
+      "cta": {
+        "question": "Interested in working together?",
+        "link": "Let's talk about your project"
+      },
+      "items": [
+        {
+          "title": "Premium Mobile Banking (Diners)",
+          "type": "Mobile App",
+          "company": "Sofka",
+          "year": "2024-2026",
+          "description": "Mobile banking app for premium clients with transactions, wallet management, QR payments, and biometric authentication (Facephi). Includes dynamic admin platform for real-time configuration and hexagonal architecture.",
+          "iconType": "smartphone",
+          "technologies": [
+            "React Native",
+            "TypeScript",
+            "Redux",
+            "Facephi",
+            "Hexagonal Arch"
+          ],
+          "highlights": [
+            "Facephi Auth",
+            "Dynamic Admin",
+            "Scalable Arch"
+          ]
+        },
+        {
+          "title": "Headless E-commerce & CMS",
+          "type": "Ecommerce Platform",
+          "company": "Broken Rubik",
+          "year": "2022-2024",
+          "description": "Led development of a headless e-commerce platform integrated with Medusa and NetSuite. Real-time data consumption and performance-driven architecture.",
+          "iconType": "cart",
+          "technologies": [
+              "React",
+              "Medusa",
+              "NetSuite",
+              "Node.js",
+              "TypeScript"
+          ],
+          "highlights": [
+              "Medusa Integration",
+              "NetSuite Backend",
+              "Headless Arch"
+          ]
+        },
+        {
+          "title": "Oborne Health Supplies",
+          "type": "Web Platform",
+          "company": "Broken Rubik",
+          "year": "2022-2024",
+          "description": "Maintenance and expansion of a web platform for pharmaceutical and homeopathic sales. Effectively integrates patients and physicians.",
+          "iconType": "building",
+          "technologies": [
+              "Backbone",
+              "SuiteScript",
+              "NetSuite"
+          ],
+          "highlights": [
+              "Pharma E-commerce",
+              "Communication Channels",
+              "NetSuite Support"
+          ]
+        },
+        {
+          "title": "Alsea Spain Club",
+          "type": "Mobile App",
+          "company": "Globant",
+          "year": "2022",
+          "description": "Mobile application for Alsea's restaurant loyalty club, focusing on unified brand management and promotion visibility.",
+          "iconType": "globe",
+          "technologies": [
+              "React Native",
+              "Redux Toolkit"
+          ],
+          "highlights": [
+              "Mass Loyalty",
+              "Multi-brand Management",
+              "Member Club App"
+          ]
+        },
+        {
+          "title": "160 Driving Academy",
+          "type": "Web Platform",
+          "company": "Globant",
+          "year": "2021-2022",
+          "description": "Job search platform for truck drivers, increasing process efficiency by 40%. Includes advanced mapping and integrated payments.",
+          "iconType": "truck",
+          "technologies": [
+              "React JS",
+              "Celero",
+              "Google Maps API"
+          ],
+          "highlights": [
+              "+40% Efficiency",
+              "Celero Payments",
+              "Advanced Mapping"
+          ]
+        },
+        {
+          "title": "Empowered Brain",
+          "type": "AR & Web platform",
+          "company": "Independent Developer",
+          "year": "2021",
+          "description": "Augmented reality applications and games (Google Glass) for children with specific learning needs (autism). Student management and performance evaluations.",
+          "iconType": "activity",
+          "technologies": [
+              "React JS",
+              "Google Glass",
+              "Android",
+              "AR"
+          ],
+          "highlights": [
+              "Inclusive EdTech",
+              "AR Games",
+              "Student Tracking"
+          ]
+        },
+        {
+          "title": "Santander Mobile Banking",
+          "type": "Mobile App",
+          "company": "Independent Developer",
+          "year": "2021",
+          "description": "Mobile banking app with comprehensive functionalities: session management, service payments, invoicing, and secure payment gateway integration.",
+          "iconType": "smartphone",
+          "technologies": [
+              "React Native",
+              "TypeScript",
+              "Payment Gateways"
+          ],
+          "highlights": [
+              "Banking Security",
+              "Invoicing Management",
+              "Financial UX"
+          ]
+        },
+        {
+          "title": "Aladi - Business Round",
+          "type": "Web Platform",
+          "company": "Shaman Studio",
+          "year": "2021",
+          "description": "Video conferencing and networking platform for Latin American importers and exporters. Meeting organization and product management.",
+          "iconType": "video",
+          "technologies": [
+              "React JS",
+              "Video Conferencing",
+              "Role Management"
+          ],
+          "highlights": [
+              "Regional Networking",
+              "Dynamic Rooms",
+              "B2B E-commerce"
+          ]
+        },
+        {
+          "title": "Tu Shopper",
+          "type": "Mobile App",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Mobile application focused on product management and purchases through an in-store barcode scanner.",
+          "iconType": "smartphone",
+          "technologies": [
+              "React Native",
+              "Barcode Scanning",
+              "Payments"
+          ],
+          "highlights": [
+              "Agile Shopping",
+              "In-app Payments",
+              "Integrated Scanner"
+          ]
+        },
+        {
+          "title": "Nippy for Delivery",
+          "type": "Mobile App",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "App for independent workers (delivery riders) that centralizes benefits and job opportunities.",
+          "iconType": "smartphone",
+          "technologies": [
+              "React Native",
+              "Gig Economy Tech"
+          ],
+          "highlights": [
+              "Rider App",
+              "Benefits Management",
+              "Social Impact"
+          ]
+        },
+        {
+          "title": "Corporate Landing Page",
+          "type": "Web Page",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Dynamic landing page with integrated blog and content management via CMS. Optimized SEO and exceptional performance.",
+          "iconType": "layout",
+          "technologies": [
+              "React JS",
+              "Next.js",
+              "SASS",
+              "Strapi CMS"
+          ],
+          "highlights": [
+              "Strapi CMS",
+              "Dynamic Blog",
+              "SEO Ready"
+          ]
+        },
+        {
+          "title": "UES GO",
+          "type": "Mobile App",
+          "company": "DIXTRA",
+          "year": "2020",
+          "description": "Mobile logistics app for order delivery. Real-time map tracking and integrated payment solutions.",
+          "iconType": "smartphone",
+          "technologies": [
+              "React Native",
+              "Mobx",
+              "Real-time Tracking"
+          ],
+          "highlights": [
+              "Live Tracking",
+              "Agile Logistics",
+              "Integrated Payments"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "sectionLabel": "// Contact",
+      "title": "Ready to build something amazing?",
+      "subtitle": "Whether you need a mobile app, a web platform, or a reinforced technical team, I'm here to help. Send me a message and let's discuss your project.",
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "Montevideo, Uruguay",
+      "directConnect": "Or connect directly",
+      "sendEmail": "Send email",
+      "form": {
+        "title": "Send me a message",
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "you@email.com",
+        "message": "Message",
+        "messagePlaceholder": "Tell me about your project...",
+        "submit": "Send message"
+      }
+    },
+    "footer": {
+      "role": "Senior Software Engineer",
+      "rights": "All rights reserved."
+    }
+  }
+}
