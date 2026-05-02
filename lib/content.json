@@ -27,12 +27,12 @@
     "hero": {
       "available": "Disponible para nuevos proyectos",
       "name": "Nalú Muñoz",
-      "role": "Senior Software Engineer",
+      "role": "Ssr Software Engineer",
       "description": "+4 años construyendo aplicaciones móviles y web escalables en fintech, e-commerce y SaaS. Especializado en ",
       "location": "Montevideo, Uruguay",
       "cta": "Contactar",
       "ctaSecondary": "Ver Experiencia",
-      "codeComment": "// Senior Software Engineer",
+      "codeComment": "// Ssr Software Engineer",
       "stats": {
         "years": "Años de experiencia",
         "code": "Código limpio"
@@ -42,7 +42,7 @@
       "sectionLabel": "// Sobre mí",
       "title": "Construyo experiencias digitales que importan",
       "photoName": "Nalú Muñoz",
-      "photoRole": "Senior Software Engineer",
+      "photoRole": "Ssr Software Engineer",
       "photoLocation": "Montevideo, Uruguay",
       "paragraphs": [
         "Soy un ingeniero de software apasionado por crear aplicaciones móviles y web que no solo funcionan, sino que",
@@ -84,7 +84,7 @@
       "jobs": [
         {
           "company": "Sofka",
-          "role": "Senior Mobile Engineer",
+          "role": "Ssr Mobile Engineer",
           "period": "Oct 2024 – Feb 2026",
           "description": [
             "Desarrollé y mantuve una aplicación móvil de banca (Diners) para clientes premium utilizando React Native y TypeScript, garantizando una experiencia segura y escalable.",
@@ -110,7 +110,7 @@
         },
         {
           "company": "Broken Rubik",
-          "role": "Senior Software Developer (Ssr lvl3)",
+          "role": "Ssr Software Developer (Ssr lvl3)",
           "period": "Nov 2022 – Mar 2024",
           "description": [
             "Lideré el desarrollo de una plataforma de e-commerce headless (React + Medusa + NetSuite), habilitando arquitectura modular y mejorando la escalabilidad.",
@@ -496,7 +496,7 @@
       }
     },
     "footer": {
-      "role": "Senior Software Engineer",
+      "role": "Ssr Software Engineer",
       "rights": "Todos los derechos reservados."
     }
   },
@@ -528,12 +528,12 @@
     "hero": {
       "available": "Available for new projects",
       "name": "Nalú Muñoz",
-      "role": "Senior Software Engineer",
+      "role": "Ssr Software Engineer",
       "description": "+4 years building scalable mobile and web applications in fintech, e-commerce, and SaaS. Specialized in ",
       "location": "Montevideo, Uruguay",
       "cta": "Contact",
       "ctaSecondary": "View Experience",
-      "codeComment": "// Senior Software Engineer",
+      "codeComment": "// Ssr Software Engineer",
       "stats": {
         "years": "Years of experience",
         "code": "Clean code"
@@ -543,7 +543,7 @@
       "sectionLabel": "// About me",
       "title": "I build digital experiences that matter",
       "photoName": "Nalú Muñoz",
-      "photoRole": "Senior Software Engineer",
+      "photoRole": "Ssr Software Engineer",
       "photoLocation": "Montevideo, Uruguay",
       "paragraphs": [
         "I'm a software engineer passionate about creating mobile and web applications that not only work, but",
@@ -585,7 +585,7 @@
       "jobs": [
         {
           "company": "Sofka",
-          "role": "Senior Mobile Engineer",
+          "role": "Ssr Mobile Engineer",
           "period": "Oct 2024 – Feb 2026",
           "description": [
             "Developed and maintained a mobile banking application (Diners) using React Native and TypeScript, contributing to a secure and scalable experience for premium users.",
@@ -611,7 +611,7 @@
         },
         {
           "company": "Broken Rubik",
-          "role": "Senior Software Developer (Ssr lvl3)",
+          "role": "Ssr Software Developer (Ssr lvl3)",
           "period": "Nov 2022 – Mar 2024",
           "description": [
             "Led development of a headless e-commerce platform (React + Medusa + NetSuite), enabling modular architecture and improving scalability.",
@@ -782,16 +782,16 @@
           "description": "Led development of a headless e-commerce platform integrated with Medusa and NetSuite. Real-time data consumption and performance-driven architecture.",
           "iconType": "cart",
           "technologies": [
-              "React",
-              "Medusa",
-              "NetSuite",
-              "Node.js",
-              "TypeScript"
+            "React",
+            "Medusa",
+            "NetSuite",
+            "Node.js",
+            "TypeScript"
           ],
           "highlights": [
-              "Medusa Integration",
-              "NetSuite Backend",
-              "Headless Arch"
+            "Medusa Integration",
+            "NetSuite Backend",
+            "Headless Arch"
           ]
         },
         {
@@ -802,14 +802,14 @@
           "description": "Maintenance and expansion of a web platform for pharmaceutical and homeopathic sales. Effectively integrates patients and physicians.",
           "iconType": "building",
           "technologies": [
-              "Backbone",
-              "SuiteScript",
-              "NetSuite"
+            "Backbone",
+            "SuiteScript",
+            "NetSuite"
           ],
           "highlights": [
-              "Pharma E-commerce",
-              "Communication Channels",
-              "NetSuite Support"
+            "Pharma E-commerce",
+            "Communication Channels",
+            "NetSuite Support"
           ]
         },
         {
@@ -820,13 +820,13 @@
           "description": "Mobile application for Alsea's restaurant loyalty club, focusing on unified brand management and promotion visibility.",
           "iconType": "globe",
           "technologies": [
-              "React Native",
-              "Redux Toolkit"
+            "React Native",
+            "Redux Toolkit"
           ],
           "highlights": [
-              "Mass Loyalty",
-              "Multi-brand Management",
-              "Member Club App"
+            "Mass Loyalty",
+            "Multi-brand Management",
+            "Member Club App"
           ]
         },
         {
@@ -837,14 +837,14 @@
           "description": "Job search platform for truck drivers, increasing process efficiency by 40%. Includes advanced mapping and integrated payments.",
           "iconType": "truck",
           "technologies": [
-              "React JS",
-              "Celero",
-              "Google Maps API"
+            "React JS",
+            "Celero",
+            "Google Maps API"
           ],
           "highlights": [
-              "+40% Efficiency",
-              "Celero Payments",
-              "Advanced Mapping"
+            "+40% Efficiency",
+            "Celero Payments",
+            "Advanced Mapping"
           ]
         },
         {
@@ -855,15 +855,15 @@
           "description": "Augmented reality applications and games (Google Glass) for children with specific learning needs (autism). Student management and performance evaluations.",
           "iconType": "activity",
           "technologies": [
-              "React JS",
-              "Google Glass",
-              "Android",
-              "AR"
+            "React JS",
+            "Google Glass",
+            "Android",
+            "AR"
           ],
           "highlights": [
-              "Inclusive EdTech",
-              "AR Games",
-              "Student Tracking"
+            "Inclusive EdTech",
+            "AR Games",
+            "Student Tracking"
           ]
         },
         {
@@ -874,14 +874,14 @@
           "description": "Mobile banking app with comprehensive functionalities: session management, service payments, invoicing, and secure payment gateway integration.",
           "iconType": "smartphone",
           "technologies": [
-              "React Native",
-              "TypeScript",
-              "Payment Gateways"
+            "React Native",
+            "TypeScript",
+            "Payment Gateways"
           ],
           "highlights": [
-              "Banking Security",
-              "Invoicing Management",
-              "Financial UX"
+            "Banking Security",
+            "Invoicing Management",
+            "Financial UX"
           ]
         },
         {
@@ -892,14 +892,14 @@
           "description": "Video conferencing and networking platform for Latin American importers and exporters. Meeting organization and product management.",
           "iconType": "video",
           "technologies": [
-              "React JS",
-              "Video Conferencing",
-              "Role Management"
+            "React JS",
+            "Video Conferencing",
+            "Role Management"
           ],
           "highlights": [
-              "Regional Networking",
-              "Dynamic Rooms",
-              "B2B E-commerce"
+            "Regional Networking",
+            "Dynamic Rooms",
+            "B2B E-commerce"
           ]
         },
         {
@@ -910,14 +910,14 @@
           "description": "Mobile application focused on product management and purchases through an in-store barcode scanner.",
           "iconType": "smartphone",
           "technologies": [
-              "React Native",
-              "Barcode Scanning",
-              "Payments"
+            "React Native",
+            "Barcode Scanning",
+            "Payments"
           ],
           "highlights": [
-              "Agile Shopping",
-              "In-app Payments",
-              "Integrated Scanner"
+            "Agile Shopping",
+            "In-app Payments",
+            "Integrated Scanner"
           ]
         },
         {
@@ -928,13 +928,13 @@
           "description": "App for independent workers (delivery riders) that centralizes benefits and job opportunities.",
           "iconType": "smartphone",
           "technologies": [
-              "React Native",
-              "Gig Economy Tech"
+            "React Native",
+            "Gig Economy Tech"
           ],
           "highlights": [
-              "Rider App",
-              "Benefits Management",
-              "Social Impact"
+            "Rider App",
+            "Benefits Management",
+            "Social Impact"
           ]
         },
         {
@@ -945,15 +945,15 @@
           "description": "Dynamic landing page with integrated blog and content management via CMS. Optimized SEO and exceptional performance.",
           "iconType": "layout",
           "technologies": [
-              "React JS",
-              "Next.js",
-              "SASS",
-              "Strapi CMS"
+            "React JS",
+            "Next.js",
+            "SASS",
+            "Strapi CMS"
           ],
           "highlights": [
-              "Strapi CMS",
-              "Dynamic Blog",
-              "SEO Ready"
+            "Strapi CMS",
+            "Dynamic Blog",
+            "SEO Ready"
           ]
         },
         {
@@ -964,14 +964,14 @@
           "description": "Mobile logistics app for order delivery. Real-time map tracking and integrated payment solutions.",
           "iconType": "smartphone",
           "technologies": [
-              "React Native",
-              "Mobx",
-              "Real-time Tracking"
+            "React Native",
+            "Mobx",
+            "Real-time Tracking"
           ],
           "highlights": [
-              "Live Tracking",
-              "Agile Logistics",
-              "Integrated Payments"
+            "Live Tracking",
+            "Agile Logistics",
+            "Integrated Payments"
           ]
         }
       ]
@@ -997,7 +997,7 @@
       }
     },
     "footer": {
-      "role": "Senior Software Engineer",
+      "role": "Ssr Software Engineer",
       "rights": "All rights reserved."
     }
   }
